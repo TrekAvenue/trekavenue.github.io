@@ -10,6 +10,16 @@ html {
     height: 100%;
 }
 
+@font-face {
+    font-family: 'HACKED';
+    src:url('../fonts/HACKED.ttf.woff') format('woff'),
+        url('../fonts/HACKED.ttf.svg#HACKED') format('svg'),
+        url('../fonts/HACKED.ttf.eot'),
+        url('../fonts/HACKED.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 body,
 h1,
 h2,
@@ -19,6 +29,11 @@ h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.logo {
+    font-family: 'HACKED';
+    font-weight: 400;
 }
 
 .topnav {
